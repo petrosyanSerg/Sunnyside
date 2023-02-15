@@ -1,0 +1,93 @@
+.section_one {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 80vh);
+}
+
+.egg {
+  background-image: url("../../images/desktop/image-transform.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.bottle {
+  background-image: url("../../images/desktop/image-stand-out.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.cherry {
+  background-image: url("../../images/desktop/image-graphic-design.jpg");
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+.citrus {
+  background-image: url("../../images/desktop/image-photography.jpg");
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+.text {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  gap: 20px;
+  text-align: left;
+  padding-inline: 10%;
+}
+.text_title {
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+  font-size: clamp(25px, 5vw, 50px);
+  color: #252f40;
+}
+.text_phorograph {
+  font-size: 16px;
+  color: #777582;
+}
+.fruit_box {
+  text-align: center;
+  display: flex;
+  flex-flow: column;
+  justify-content: end;
+  align-items: center;
+  gap: 5%;
+  padding: 10% 25%;
+}
+.fruit_title {
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+  font-size: clamp(20px, 2vw, 30px);
+  color: hsl(198, 62%, 26%);
+}
+.fruit_text {
+  font-size: 16px;
+  color: hsl(213, 9%, 39%);
+  word-spacing: 3px;
+}
+.more_link {
+  width: 30%;
+  text-decoration: none;
+  color: hsl(0, 0%, 0%);
+  border-bottom: 3px solid yellow;
+  transition: all 300ms ease;
+  &:hover {
+    border-color: royalblue;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .section_one {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 80vh);
+  }
+  .egg {
+    order: -1;
+  }
+}

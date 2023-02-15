@@ -1,0 +1,83 @@
+.section_two {
+  width: 100%;
+  height: 100vh;
+  padding-block: 15vh;
+  padding-inline: 10%;
+}
+
+.sectionTwo_subtitle {
+  text-align: center;
+  font-family: "Fraunces", serif;
+  font-size: 20px;
+  letter-spacing: 4px;
+  color: #a8abad;
+  margin-bottom: 50px;
+}
+
+.people_info {
+  display: flex;
+  gap: 5%;
+}
+
+.person {
+  display: flex;
+  flex-flow: column;
+  text-align: center;
+  align-items: center;
+  gap: 5vh;
+}
+.emily {
+  background-image: url("../../images/image-emily.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 30%;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+}
+.thomas {
+  background-image: url("../../images/image-thomas.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 30%;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+}
+.jennie {
+  background-image: url("../../images/image-jennie.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 30%;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+}
+
+.person_name {
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+  color: hsl(198, 62%, 26%);
+}
+.person_work {
+  color: #a8abad;
+}
+.person_text {
+  color: #555459;
+  font-size: 16px;
+}
+@media only screen and (max-width: 450px) {
+  .section_two {
+    padding-block: 5vh;
+    height: 180vh;
+    padding-inline: 5%;
+  }
+  .people_info {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2vh;
+  }
+}
