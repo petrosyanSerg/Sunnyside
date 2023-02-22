@@ -2,7 +2,7 @@ import "./SectionTwo.scss";
 
 function SectionTwo() {
   return (
-    <section className="section_two">
+    <section className="section_two" id="services">
       <p className="sectionTwo_subtitle">CLIENT TESTIMONIALS</p>
       <div className="people_info">
         <div className="person">

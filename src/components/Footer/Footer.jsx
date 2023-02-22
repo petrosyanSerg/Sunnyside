@@ -8,7 +8,7 @@ import {
 } from "react-icons/ai";
 function Footer() {
   return (
-    <footer className="footer">
+    <footer className="footer" id="footer">
       <div className="footer_logo"></div>
       <MenuList color={"green"} active={null} />
       <div className="socmedia_item">

@@ -1,7 +1,7 @@
 import "./SectionOne.scss";
 function SectionOne() {
   return (
-    <section className="section_one">
+    <section className="section_one" id="about">
       <div className="text">
         <div className="text_title">Transform your brand</div>
         <p className="text_phorograph">
@@ -9,7 +9,11 @@ function SectionOne() {
           officia at eum nam omnis ipsa provident ex exercitationem! Obcaecati
           quia nemo fuga quidem nostrum possimus?
         </p>
-        <a href="#" className="more_link">
+        <a
+          href="https://brandextract.com/Insights/Articles/Brand-Transformation-What-Why-and-How/"
+          target="_blank"
+          className="more_link"
+        >
           Learn more
         </a>
       </div>
@@ -22,7 +26,11 @@ function SectionOne() {
           officia at eum nam omnis ipsa provident ex exercitationem! Obcaecati
           quia nemo fuga quidem nostrum possimus?
         </p>
-        <a href="#" className="more_link">
+        <a
+          href="https://brandextract.com/Insights/Articles/Brand-Transformation-What-Why-and-How/"
+          target="_blank"
+          className="more_link"
+        >
           Learn more
         </a>
       </div>

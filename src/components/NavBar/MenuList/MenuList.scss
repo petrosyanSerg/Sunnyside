@@ -7,6 +7,10 @@
 .menu_item {
   cursor: pointer;
   transition: all 400ms ease;
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
   &:hover {
     opacity: 0.7;
   }
